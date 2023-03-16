@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;polymorphism3&apos; to &apos;pro20230316/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;pro20230309&apos;&#x0D;&#x0A;- Destination element: &apos;pro20230316/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;pro20230309/src/polymorphism3&apos;" description="Copy package" destination="=pro20230316/src\/main\/java" element1="/src&lt;polymorphism3" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1678941390241" version="1.0"/>
+</session>

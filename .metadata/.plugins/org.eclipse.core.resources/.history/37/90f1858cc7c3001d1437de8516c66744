@@ -1,0 +1,21 @@
+package polymorphism3;
+
+import org.springframework.context.support.AbstractApplicationContext;
+import org.springframework.context.support.GenericXmlApplicationContext;
+
+public class TvUser2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		BeanFactory factory = new BeanFactory();
+////		TV tv = (TV)factory.getBean("lg");
+		
+		AbstractApplicationContext factory = new GenericXmlApplicationContext("applicationContext2.xml");
+//		TV tv = (TV)factory.getBean("tv1");
+		Address ad = (Address)factory.getBean("listAddress");
+		System.out.println(ad.getSetAddress());
+		
+		
+	}
+
+}

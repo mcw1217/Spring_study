@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="listAddress" class="polymorphism3.Address">
+		<property name="listAddress" >
+			<list value-type="java.lang.String">
+				<value>서울시 강서구 등촌3동</value>
+				<value>서울시 강남구 세곡동</value>
+				<value>제주도 서귀포시 세곡동</value>
+			</list>
+		</property>
+	</bean>
+	<bean id="setAddress" class="polymorphism3.Address">
+		<property name="setAddress">
+			<set value-type="java.lang.String">
+				<value>서울시 강서구 등촌3동</value>
+				<value>경북 남동구 세곡2동</value>
+				<value>경북 남동구 세곡3동</value>
+			</set>
+		</property>
+	
+	</bean>
+	
+	<bean id="mapAddress" class="polymorphism3.Address">
+		<property name="mapAddress">
+			<map>
+				<entry>
+					<key><value>발산동</value></key>
+					<value>서울시 강서구 발산동</value>
+				</entry>
+				<entry>
+					<key><value>등촌3동</value></key>
+					<value>서울시 강서구 등촌3동</value>
+				</entry>
+				<entry>
+					<key><value>목동</value></key>
+					<value>서울시 양천구 목동</value>
+				</entry>
+			</map>
+		</property>
+		
+	
+	</bean>
+</beans>

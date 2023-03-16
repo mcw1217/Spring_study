@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="listAddress" class="polymorphism3.Address">
+		<property name="listAddress" >
+			<list>
+				<value>서울시 강서구 등촌3동</value>
+				<value>서울시 강남구 세곡동</value>
+				<value>제주도 서귀포시 세곡동</value>
+			</list>
+		</property>
+	</bean>
+</beans>
